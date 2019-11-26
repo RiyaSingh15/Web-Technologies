@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 1%;
+}
+
+@font-face{
+    src: url("deja.ttf");
+    font-family: deja;
+}
+@font-face{
+    src: url("Chameron .ttf");
+    font-family: ron;
+}
+
+body{
+    background: #3C3B3F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.Python{
+    font-family: deja;
+    font-size: 20vmin;
+    text-align: center;
+    color: #ADA996;
+    letter-spacing: 1px;
+    line-height: 100px;
+}
+
+.About{
+    font-size: 4vmin;
+    text-align: center;
+    font-family: ron;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-top: 50px;
+}
+
+.start{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vmin;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-top: 50px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4vmin;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-top: 15px;
+}
+
+div{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vmin;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #6495ED;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #6B8E23;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #00CED1;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: #00008B;
+  }

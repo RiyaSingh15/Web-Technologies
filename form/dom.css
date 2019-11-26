@@ -1,0 +1,52 @@
+form {
+  text-align: center;
+  font-size: 25px;
+  background: #1d4350; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a43931,
+    #1d4350
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a43931,
+    #1d4350
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 10px;
+  font-size: 50px;
+}
+
+.inp {
+  text-align: center;
+  border: 5px solid #834d9b;
+  border-radius: 25%;
+  font-size: 40px;
+  color: #d04ed6;
+  width: 50%;
+}
+
+td {
+  padding: 10px;
+}
+
+.but:hover {
+  cursor: pointer;
+  color: #8e0e00;
+  background: #fd746c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff9068,
+    #fd746c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff9068,
+    #fd746c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-size: 45px;
+}
+
+.cls {
+  width: 100%;
+}

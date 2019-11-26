@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="arithmetic.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Calculator</legend>
+            <table>
+                <tr>
+                    <td colspan="2"><input type="text" name="disp1" id="disp1" required></td>
+                    <td colspan="2"><input type="text" name="disp2" id="disp2" required></td>
+                    <td colspan="2"><input type="text" name="disp3" id="disp3" disabled></td>
+                </tr>
+                <tr>
+                    <td><button type="button" onclick="add()">+</button></td>
+                    <td><button type="button" onclick="sub()">-</button></td>
+                    <td><button type="button" onclick="divide()">/</button></td>
+                    <td><button type="button" onclick="mul()">*</button></td>
+                    <td><button type="button" onclick="rem()">%</button></td>
+                    <td><button type="button" onclick="val()">**</button></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><br><br><br></td>
+                </tr>
+
+                <tr>
+                    <td colspan="4">For unary operations</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" name="disp4" id="disp4" required></td>
+                    <td colspan="2"><input type="text" name="disp5" id="disp5" disabled></td>
+                </tr>
+                <tr>
+                    <td><button type="button" onclick="incr()">+ +</button></td>
+                    <td><button type="button" onclick="decr()">- -</button></td>
+                    <td><button type="button" onclick="chg()">+ -</button></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <script src="arithmetic.js"></script>
+</body>
+
+</html>

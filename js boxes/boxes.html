@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript Boxes</title>
+    <link rel="stylesheet" href="boxes.css">
+</head>
+
+<body onload="alertbox()">
+    <form>
+        <input type="text" name="name" id="name" required  onclick="dialogbox()" required readonly><br>
+        <input type="text" name="email" id="email" required onclick="dialogbo()" required readonly><br>
+        <button type="button" onclick="confirmbox()">Submit</button><br>
+        <p id="result"></p>
+    </form>
+    <script src="boxes.js"></script>
+</body>
+
+</html>

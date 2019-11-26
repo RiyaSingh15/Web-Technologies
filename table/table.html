@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+
+        body {
+            background: #2980B9;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        table {
+            font-size: xx-large;
+            color: #108dc7;
+            font-weight: bolder;
+            width: 50%;
+            text-align: center;
+        }
+
+        th {
+            background: #659999;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #f4791f, #659999);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #f4791f, #659999);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        td {
+            background: #1E9600;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #FF0000, #FFF200, #1E9600);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        td:hover {
+            background: #ad5389;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #3c1053, #ad5389);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+            border: 5px solid#ef8e38;
+            border-radius: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="10">
+        <tr>
+            <th colspan="5">Table</th>
+        </tr>
+        <tr>
+            <td rowspan="5">1</td>
+            <td colspan="4">2</td>
+        </tr>
+        <tr>
+            <td colspan="2">3</td>
+            <td colspan="3" rowspan="2">4</td>
+        </tr>
+        <tr>
+            <td colspan="2">5</td>
+        </tr>
+        <tr>
+            <td colspan="5">6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td colspan="5">10</td>
+        </tr>
+    </table>
+</body>
+
+</html>

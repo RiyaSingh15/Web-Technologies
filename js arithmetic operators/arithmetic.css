@@ -1,0 +1,67 @@
+form {
+    background: #CCCCB2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #757519, #CCCCB2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #757519, #CCCCB2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    font-size: xx-large;
+}
+
+input[type=text] {
+    font-size: large;
+    text-align: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 5px solid #1F1C18;
+    border-radius: 25%;
+    -webkit-transition: 1s;
+    transition: 1s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    font-size: large;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 5px solid #7b4397;
+    border-radius: 25%;
+}
+
+button {
+    background: #43cea2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: none;
+    color: #dc2430;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+button {
+    font-size: xx-large;
+    background: #83a4d4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #B3FFAB;
+    border: 5px solid #12FFF7;
+}
+
+button:hover {
+    background: #649173;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #DBD5A4, #649173);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #ddd6f3;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document Object Model</title>
+    <link rel="stylesheet" href="dom.css">
+</head>
+
+<body>
+    <form name="register" onsubmit="return validate()">
+        <fieldset>
+            <legend>Registration Form</legend>
+            <table>
+                <tr>
+                    <td><input type="text" class="inp cls" placeholder="First Name" name="fname"></td>
+                    <td><input type="text" class="inp cls" placeholder="Last Name" name="lname"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" class="inp" placeholder="Username" name="uname"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="email" class="inp" placeholder="E-mail" name="email"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="password" class="inp" placeholder="Password" name="pass"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="tel" class="inp" placeholder="Mobile Number" name="mobile"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" class="inp but" value="Submit"></td>
+                    <td><input type="reset" class="inp but" value="Reset"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <script src="dom.js"></script>
+</body>
+
+</html>

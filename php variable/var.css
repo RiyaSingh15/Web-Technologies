@@ -1,0 +1,29 @@
+
+body {
+  background: #56ab2f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin:5%;
+}
+
+textarea {
+  font-size: 40px;
+  width: 75%;
+  height:200px;
+  padding: 5%;
+  border: 5px solid #3a7bd5;
+  border-radius: 25%;
+  -webkit-transition: 1s;
+  transition: 1s;
+  outline: none;
+}
+
+textarea:focus {
+  font-size: 40px;
+  padding: 1%;
+  height:200px;
+  width: 75%;
+  border: 5px solid #3a6073;
+  border-radius: 50px;
+}

@@ -1,0 +1,67 @@
+#container {
+  font-size: xx-large;
+  font-weight: bolder;
+  background: #8360c3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #FDC830;
+  margin: 5%;
+  padding: 5%;
+  border: 10px solid #F37335;
+  border-radius: 25%;
+}
+
+input[type="text"] {
+  font-size: large;
+  text-align: center;
+  width: 25%;
+  padding: 12px 20px;
+  margin: 1%;
+  box-sizing: border-box;
+  border: 5px solid #333333;
+  border-radius: 25%;
+  -webkit-transition: 1s;
+  transition: 1s;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  font-size: large;
+  width: 25%;
+  padding: 12px 20px;
+  margin: 1%;
+  box-sizing: border-box;
+  border: 5px solid #dd1818;
+  border-radius: 25%;
+}
+
+button {
+  background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border: none;
+  color: #800080;
+  padding: 16px 32px;
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1%;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  cursor: pointer;
+  border-radius: 20%;
+  border: 5px solid #483d8b;
+}
+
+
+button:hover {
+  background: #800080;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #1a2a6c;
+  border: 5px solid #b21f1f;
+}
